@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+    background: linear-gradient( to bottom,rgba(66, 65, 65, 0.5),rgba(27, 27, 27, 0.75));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 150vh;
+}
+.container{
+    border: none;
+    background: linear-gradient(to top right, rgba(56, 55, 55, 0.562), rgba(201, 44, 44, 0.452));
+    border-radius: 10px;
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    z-index: 1;
+}
+.container-2{
+    border: none;
+    background: linear-gradient(to top right, rgba(56, 55, 55, 0.562), rgba(201, 44, 44, 0.452));
+    border-radius: 10px;
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    z-index: 1;
+}
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text {
+    padding: 0px 5px;
+    margin: 3rem 3px;
+}
+.text p{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+.client-img-box{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+.client-img img{
+    width: 150px;
+    height: 130px;
+}
+
+/* Responsive design  */
+
+
+/* container-2 adjustment  */
+@media only screen and (max-width: 1072px) {
+    .container-2{
+        height: 90vh;
+    }
+  }
+@media only screen and (max-width: 660px) {
+    .container-2{
+        height: 120vh;
+    }
+  }
+@media only screen and (max-width: 443px) {
+    .container-2{
+        height: 150vh;
+    }
+    .client-img-box{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .main-box{
+        min-height: 250vh;
+    }
+  }
+
+/* container adjustment  */
+
+@media only screen and (max-width: 864px) {
+    .container h2{
+        margin-top: 10px;
+   }
+  }
+@media only screen and (max-width: 716px) {
+    .container {
+        height: 60vh;
+   }
+   .text p{
+       font-size: 18px;
+   }
+   .main-box{
+       height: 200vh;
+   }
+  }
+@media only screen and (max-width: 716px) {
+    .container h2 {
+        margin-top: 20px;
+   }
+   .text p{
+    font-size: 16px;
+}
+  }
+@media only screen and (max-width: 356px) {
+    .container {
+        height: 70vh ;
+   }
+  }
+
+ 

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background: black;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.contact{
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45%;
+    height: 25%;
+    
+}
+.contact img{
+    width:32px;
+}
+.footer p{
+    padding: 2rem 0px;
+    bottom: 3rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
